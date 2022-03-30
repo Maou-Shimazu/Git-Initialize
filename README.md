@@ -9,10 +9,10 @@
 ###### Add the folder where you have the files stored in, into your path. Open a terminal in the directory you want to initialize git in. Run
 ```batch
 ::Windows
-GitCreate.bat
+git-init.bat
 
 ::Linux
-chmod +x GitCreate.sh
-bash GitCreate.sh
+chmod +x git-init.sh
+bash git-init.sh
 ```
 ##### Enter prompt information and if your git commandline credentials are correct same as your repo name then it will initialize git in said folder and push a readme file to the repository. You can then commit the rest of files to the repository.
